@@ -1,0 +1,11 @@
+{
+    "name": "robdwaller/wordpress_starter",
+    "description": "WordPress Composer Starter Repo",
+    "authors": [
+        {
+            "name": "Rob Waller",
+            "email": "rdwaller1984@googlemail.com"
+        }
+    ],
+    "require": {}
+}
