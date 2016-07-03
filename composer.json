@@ -7,5 +7,25 @@
             "email": "rdwaller1984@googlemail.com"
         }
     ],
-    "require": {}
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "4.5.*",
+        "wpackagist-plugin/advanced-custom-fields": "4.4.*" 
+    },
+    "require-dev": {
+        "wpackagist-plugin/debug-bar": "*"
+    }
+    "extra": {
+        "installer-paths": {
+            "public/wp-content/mu-plugins/{$name}": ["type:wordpress-muplugin"],
+            "public/wp-content/plugins/{$name}": ["type:wordpress-plugin"],
+            "public/wp-content/themes/{$name}": ["type:wordpress-theme"]
+        }
+        "wordpress-install-dir": "public/wordpress"
+    }
 }

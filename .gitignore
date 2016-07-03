@@ -1,0 +1,10 @@
+/public/wordpress/*
+!/public/wordpress/.gitkeep
+/vendor/*
+!/vendor/.gitkeep
+/public/wp-content/plugins/*
+!/public/wp-content/plugins/.gitkeep
+/public/wp-content/mu-plugins/*
+!/public/wp-content/mu-plugins/.gitkeep
+/public/wp-content/themes/*
+!/public/wp-content/themes/.gitkeep
