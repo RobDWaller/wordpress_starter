@@ -8,4 +8,6 @@
 !/public/wp-content/mu-plugins/.gitkeep
 /public/wp-content/themes/*
 !/public/wp-content/themes/.gitkeep
+/public/wp-content/uploads/*
+!/public/wp-content/uploads/.gitkeep
 .env
