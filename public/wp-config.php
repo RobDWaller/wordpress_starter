@@ -99,8 +99,13 @@ define('WP_DEBUG', getenv("DEBUG"));
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', true);
 define('DISALLOW_FILE_EDIT', true);
+
 define('WP_HOME','http://' . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL','http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
+
+define('CONTENT_DIR', '/wp-content');
+define('WP_CONTENT_DIR', __DIR__ . CONTENT_DIR);
+define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 
 /* That's all, stop editing! Happy blogging. */
 

@@ -16,6 +16,7 @@
     "require": {
         "johnpbloch/wordpress": "4.5.*",
         "wpackagist-plugin/advanced-custom-fields": "4.4.*",
+        "wpackagist-theme/twentysixteen": "1.2",
         "vlucas/phpdotenv": "2.3.*"
     },
     "require-dev": {
