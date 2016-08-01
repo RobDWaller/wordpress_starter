@@ -10,6 +10,9 @@
 !/public/wp-content/themes/.gitkeep
 /public/wp-content/uploads/*
 !/public/wp-content/uploads/.gitkeep
+/public/wp-content/debug.log
+/public/.htaccess
 /config/*
 !/config/Config.php
 .env
+.vagrant
